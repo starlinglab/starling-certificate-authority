@@ -120,7 +120,7 @@ The following tutorial will walk you through creating a CA using the openssl com
     openssl ecparam -genkey -name prime256v1 -out intermediate-stg/private/intermediate-stg.key.pem
     ```
 
-1. Generate a signing request (**imortant**, the description is a required field; you can use something like `Starling Lab Intermediate CA` for example)
+1. Generate a signing request (**important**, the description is a required field; you can use something like `Starling Lab Intermediate CA` for example)
     ```sh
     openssl req -sha256 -new -config intermediate-stg/openssl.cnf -key intermediate-stg/private/intermediate-stg.key.pem -out intermediate-stg/csr/intermediate-stg.csr
     ```
