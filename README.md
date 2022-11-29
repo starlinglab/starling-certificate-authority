@@ -53,7 +53,7 @@ The following tutorial will walk you through creating a CA using the openssl com
 1. Configure openssl (_optionally_, you can change the values in the section labelled `DEFAULTS`)
     ```sh
     # Download the openssl.cnf from this repository
-    curl --no-progress-meter --output CA/openssl.cnf https://gist.githubusercontent.com/galargh/a8e25193d66679a97b84395c07fd56de/raw/034746e8972763fa0c127d1343d85529acdd1fff/openssl.cnf
+    curl --no-progress-meter --output CA/openssl.cnf https://github.com/starlinglab/Starling_Certificate_Authority/blob/master/docs/openssl.cnf.example
 
     # Update the path to the CA directory
     sed -i'' "s#/home/user#$(pwd)#g" CA/openssl.cnf
@@ -101,7 +101,7 @@ The following tutorial will walk you through creating a CA using the openssl com
 1. Configure openssl (_optionally_, you can change the values in the section labelled `DEFAULTS`)
     ```sh
     # Download the openssl.cnf from this repository
-    curl --no-progress-meter --output intermediate-stg/openssl.cnf https://gist.githubusercontent.com/galargh/a8e25193d66679a97b84395c07fd56de/raw/034746e8972763fa0c127d1343d85529acdd1fff/openssl.cnf
+    curl --no-progress-meter --output intermediate-stg/openssl.cnf https://github.com/starlinglab/Starling_Certificate_Authority/blob/master/docs/openssl.cnf.example
     
     # Update the path to the intermediate-stg directory
     sed -i'' "s#/home/user/CA#$(pwd)/intermediate-stg#g" intermediate-stg/openssl.cnf
@@ -308,4 +308,4 @@ qrencode -r intermediate-stg.key.encrypted.pem -o intermediate-stg.key.encrypted
 
 #### Example
 
-![](https://i.imgur.com/YruQeKA.png)
+![](https://github.com/starlinglab/Starling_Certificate_Authority/blob/master/docs/qb-sample.png)
