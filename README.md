@@ -211,7 +211,7 @@ yubico-piv-tool -a set-mgm-key -n $key
 echo $key
 ```
 
-If you get `Failed authentication with the application.` this may mean the key was initalized before. If you need to reset it see factory reset instructions in resources.
+If you get `Failed authentication with the application.` this may mean the key was initialized before. If you need to reset it see factory reset instructions in resources.
 
 #### Import CA Certificate into Yubikey
 
