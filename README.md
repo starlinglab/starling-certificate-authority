@@ -129,7 +129,7 @@ The following tutorial will walk you through creating a CA using the openssl com
 
 You can sign the intermediate CSR multiple times with different root CA for cross singing.
 
-CSR files do not contain any sensative information and can be exchanged easily. 
+CSR files do not contain any sensitive information and can be exchanged easily. 
 However, it is required to set up a mechanism for verification if a file was not interfered with during such exchange.
 
 1. Sign the intermediate CSR with root CA (you'll be asked for confirmation twice)
