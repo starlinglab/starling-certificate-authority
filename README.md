@@ -183,7 +183,7 @@ However, it is required to set up a mechanism for verification if a file was not
     ```sh
     cat intermediate-stg/certs/$keyname.cert.pem > intermediate-stg/certs/$keyname.cert.bundle.pem
     cat intermediate-stg/certs/intermediate-stg.cert.pem >> intermediate-stg/certs/$keyname.cert.bundle.pem
-    # if any more intermediate certs were used, bundle them here
+    # if any more intermediate certs were used, or cross signed certificates to be include, bundle them here
     ```
     
 1. Verify the trust in the certificate bundle
