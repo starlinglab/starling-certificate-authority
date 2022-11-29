@@ -159,7 +159,7 @@ However, it is required to set up a mechanism for verification if a file was not
     openssl ecparam -genkey -name prime256v1 -out intermediate-stg/private/$keyname.key.pem
     ```
 
-1. Generate a signing request (**imortant**, the description is a required field; you can use something like `Starling Lab Project Certificate` for example)
+1. Generate a signing request (**important**, the description is a required field; you can use something like `Starling Lab Project Certificate` for example)
     ```sh
     openssl req -sha256 -new -config intermediate-stg/openssl.cnf -key intermediate-stg/private/$keyname.key.pem -out intermediate-stg/csr/$keyname.csr
     ```
