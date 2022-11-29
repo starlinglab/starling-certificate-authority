@@ -64,7 +64,7 @@ The following tutorial will walk you through creating a CA using the openssl com
     openssl ecparam -genkey -name prime256v1 -out CA/private/ca.key.pem
     ```
 
-1. Generate a self-signed certificate (**imortant**, the description is a required field; you can use something like `Starling Lab Root CA` for example)
+1. Generate a self-signed certificate (**important**, the description is a required field; you can use something like `Starling Lab Root CA` for example)
     ```sh
     openssl req -new -x509 -days 7300 -config CA/openssl.cnf -key CA/private/ca.key.pem -sha256 -extensions v3_ca -out CA/certs/ca.cert.pem
     ```
