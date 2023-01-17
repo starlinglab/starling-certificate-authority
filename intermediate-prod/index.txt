@@ -1,1 +1,2 @@
 V	230701120000Z		1000	unknown	/C=US/ST=California/L=Los Angeles/O=Starling Lab/CN=Starling Lab Bijeljina Investigation/emailAddress=certificates+noreply@starlinglab.org
+V	230716145140Z		1001	unknown	/C=PT/ST=Lisbon/L=Lisbon/O=Hala Systems/CN=Kharkiv Schools Investigation/emailAddress=info+certs@halasystems.com
