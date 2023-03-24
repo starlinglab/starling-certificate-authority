@@ -202,7 +202,7 @@ You can put the private key of a CA onto a Yubikey and use the key to sign certi
 Install required packages and start service
 ```sh
 sudo apt install libengine-pkcs11-openssl opensc-pkcs11 pcscd yubico-piv-tool ykcs11 gnutls-bin
-stemctl start  pcscd.socket
+systemctl start pcscd.socket
 ```
 Configure management key on Yubikey. You can store key offline
 ```sh
