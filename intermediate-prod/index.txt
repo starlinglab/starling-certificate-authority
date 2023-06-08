@@ -2,3 +2,4 @@ V	230701120000Z		1000	unknown	/C=US/ST=California/L=Los Angeles/O=Starling Lab/C
 V	230716145140Z		1001	unknown	/C=PT/ST=Lisbon/L=Lisbon/O=Hala Systems/CN=Kharkiv Schools Investigation/emailAddress=info+certs@halasystems.com
 V	230716145141Z		1002	unknown	/C=US/ST=New York/L=New York/O=Reuters/CN=Reuters V2/emailAddress=domain.name@thomsonreuters.com
 V	240605015412Z		1003	unknown	/C=UA/ST=Kyiv/L=Kyiv/O=Aero3D/CN=Aero3D/emailAddress=info@aero3d.ua
+V	240617205737Z		1004	unknown	/C=PL/ST=Warsaw/L=Warsaw/O=Pixelrace/CN=Pixelrace/emailAddress=virtualproduction@pixelrace.com
