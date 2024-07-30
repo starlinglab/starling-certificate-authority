@@ -3,3 +3,4 @@ V	230716145140Z		1001	unknown	/C=PT/ST=Lisbon/L=Lisbon/O=Hala Systems/CN=Kharkiv
 V	230716145141Z		1002	unknown	/C=US/ST=New York/L=New York/O=Reuters/CN=Reuters V2/emailAddress=domain.name@thomsonreuters.com
 V	240605015412Z		1003	unknown	/C=UA/ST=Kyiv/L=Kyiv/O=Aero3D/CN=Aero3D/emailAddress=info@aero3d.ua
 V	240617205737Z		1004	unknown	/C=PL/ST=Warsaw/L=Warsaw/O=Pixelrace/CN=Pixelrace/emailAddress=virtualproduction@pixelrace.com
+V	250809180747Z		1005	unknown	/C=US/ST=California/L=Stanford/O=Starling Lab/CN=Project Certificate for Kira and Chris Morris project/emailAddress=certificates\+noreply@starlinglab.org
