@@ -2,7 +2,7 @@
 
 This repository contains **public certificates and metadata** from our certificate authority. **No private keys** are included.
 
-More techncical details about this repo can be found in [README-howto.md].
+More techncical details about this repo can be found in [[README-howto.md]] .
 
 ## Structure
 ```
